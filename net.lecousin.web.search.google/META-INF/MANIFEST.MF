@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: net.lecousin - web search - Google
+Bundle-SymbolicName: net.lecousin.web.search.google;singleton:=true
+Bundle-Version: 0.1.0
+Bundle-Activator: net.lecousin.web.search.google.internal.EclipsePlugin
+Bundle-Vendor: Guillaume LE COUSIN
+Require-Bundle: org.eclipse.core.runtime,
+ net.lecousin.web.search;bundle-version="0.1.0",
+ net.lecousin.framework;bundle-version="0.2.0",
+ net.lecousin.framework.net.http;bundle-version="0.1.0",
+ net.lecousin.framework.net.mime;bundle-version="0.1.0"
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-ActivationPolicy: lazy
